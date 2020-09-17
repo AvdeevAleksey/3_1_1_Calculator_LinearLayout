@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    >
 
     <TextView
         android:id="@+id/result"
@@ -26,21 +27,24 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:textSize="50sp"/>
+            android:textSize="50sp"
+            android:onClick="anyButtonClicked"/>
         <Button
             android:id="@+id/btnTwo"
             android:layout_weight="1"
             android:text="@string/button_two"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:textSize="50sp"/>
+            android:textSize="50sp"
+            android:onClick="anyButtonClicked"/>
         <Button
             android:id="@+id/btnThree"
             android:layout_weight="1"
             android:text="@string/button_three"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:textSize="50sp"/>
+            android:textSize="50sp"
+            android:onClick="anyButtonClicked"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -52,21 +56,24 @@
             android:text="@string/button_for"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:textSize="50sp"/>
+            android:textSize="50sp"
+            android:onClick="anyButtonClicked"/>
         <Button
             android:id="@+id/btnFive"
             android:layout_weight="1"
             android:text="@string/button_five"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:textSize="50sp"/>
+            android:textSize="50sp"
+            android:onClick="anyButtonClicked"/>
         <Button
             android:id="@+id/btnSix"
             android:layout_weight="1"
             android:text="@string/button_six"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:textSize="50sp"/>
+            android:textSize="50sp"
+            android:onClick="anyButtonClicked"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -78,21 +85,24 @@
             android:text="@string/button_seven"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:textSize="50sp"/>
+            android:textSize="50sp"
+            android:onClick="anyButtonClicked"/>
         <Button
             android:id="@+id/btnEight"
             android:layout_weight="1"
             android:text="@string/button_eight"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:textSize="50sp"/>
+            android:textSize="50sp"
+            android:onClick="anyButtonClicked"/>
         <Button
             android:id="@+id/btnNine"
             android:layout_weight="1"
             android:text="@string/button_nine"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:textSize="50sp"/>
+            android:textSize="50sp"
+            android:onClick="anyButtonClicked"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -105,13 +115,15 @@
             android:text="@string/button_zero"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:textSize="50sp"/>
+            android:textSize="50sp"
+            android:onClick="anyButtonClicked"/>
         <Button
             android:id="@+id/btnPoint"
             android:layout_weight="1"
             android:text="@string/button_point"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:textSize="50sp"/>
+            android:textSize="50sp"
+            android:onClick="anyButtonClicked"/>
     </LinearLayout>
 </LinearLayout>
